@@ -1,0 +1,46 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.navbar {
+  background-color: #ffffffe9;
+  height: 70px;
+  box-shadow: 0px 0px 6px #d3d3d3;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+}
+
+.toolbar {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.nav_options {
+  display: flex;
+}
+
+.nav_option {
+  padding: 4px 6px;
+  border-radius: 5px;
+  transition: all 250ms ease-in-out;
+}
+
+.nav_option:hover {
+  background-color: #f9f9f9;
+}
+
+.main {
+  min-height: calc(100vh - 70px);
+}
