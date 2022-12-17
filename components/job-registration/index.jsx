@@ -80,7 +80,7 @@ const JobRegistration = () => {
           });
           const data = res.data;
           if (data) {
-            setNotification("Successfully added");
+            setNotification("Successfully updated");
             setTimeout(() => {
               setNotification("");
             }, 1000);
@@ -142,7 +142,9 @@ const JobRegistration = () => {
       className={styles.form_container + " " + "primary"}
     >
       <div className={styles.notification}>{notification}</div>
-      <h4 className={styles.header}>Register to the hireable list</h4>
+
+      <h4 className={styles.header}>Update your hireable profile</h4>
+
       <p>
         Please enter your name and pick the sector you are currently involed in.
       </p>
